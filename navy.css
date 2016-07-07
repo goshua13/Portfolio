@@ -1,0 +1,150 @@
+
+ 
+ body{
+     background: url(bruh.jpg);
+     background-size: cover;
+ }
+ 
+.title {
+    font-family:  arial;
+    color: white;
+    height: 10%;
+    width: 80%;
+    position: fixed;
+    top: 350px;
+    left: 400px;
+    margin-top: -100px;
+    margin-left: auto;
+    font-size: 65px;
+}
+
+#line {
+    height: 1px;
+    width: 200px;
+    background-color: white;
+    margin-top: 350px;
+    margin-left: 520px;
+    transition: 
+}
+.custom-icon {
+  font-size:45px;
+  background:#666;
+  background:rgba(0,0,0,0.4);
+  padding:50px;
+  border-radius:50%;
+  border:6px solid #fff;
+  color: #fff;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46); 
+  transition:.5s;
+  position: absolute;
+  top: 420px;
+  left: 430px;
+  cursor: pointer;
+}
+.custom-icon:hover {
+  background:rgba(0,0,0,0.6);
+  transform: scale(1.1);
+}
+.custom-icon:active{
+  transform: scale(.9);
+}
+.fix-editor {
+  display:none;
+}
+.icon-wrapper {
+  display:inline-block;
+}
+.work{
+    background: url(work.png) no-repeat;
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 445px;
+    left: 455px;
+}
+
+
+
+
+
+.custom-icon2 {
+  font-size:45px;
+  background:#666;
+  background:rgba(0,0,0,0.4);
+  padding:50px;
+  border-radius:50%;
+  border:6px solid #fff;
+  color: #fff;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  transition:.5s;
+  position: fixed;
+  top: 420px;
+  left: 580px;
+  cursor: pointer;
+}
+.custom-icon2:hover{
+  background:rgba(0,0,0,0.6);
+  transform: scale(1.1);
+}
+.custom-icon2:active{
+  transform: scale(.9);
+}
+.fix-editor2 {
+  display:none;
+}
+.icon-wrapper2 {
+  display:inline-block;
+}
+.muah{
+    background: url(muah.png) no-repeat;
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 445px;
+    left: 605px;
+}
+
+
+
+
+
+
+.custom-icon3 {
+  font-size:45px;
+  background:#666;
+  background:rgba(0,0,0,0.4);
+  padding:50px;
+  border-radius:50%;
+  border:6px solid #fff;
+  color: #fff;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  transition:.5s;
+  position: fixed;
+  top: 420px;
+  left: 730px;
+  cursor: pointer;
+}
+.custom-icon3:hover {
+  background:rgba(0,0,0,0.6);
+  transform: scale(1.1);
+}
+.custom-icon3:active{
+  transform: scale(.9);
+}
+.fix-editor3 {
+  display:none;
+}
+.icon-wrapper3 {
+  display:inline-block;
+}
+.contact{
+    background: url(contact.png) no-repeat;
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 445px;
+    left: 755px;
+}

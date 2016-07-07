@@ -1,0 +1,109 @@
+.home{
+	background: url(home.png) no-repeat;
+	background-size: 100%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 20;
+    cursor: pointer;
+
+
+}
+.home:hover{
+	transform: scale(1.2);
+}
+.home:active{
+	transform: scale(.9);
+
+}
+#box{
+	border-radius: 6%;
+	background-color: #000000; 
+	width: 700px;
+	height: 400px;
+	position: fixed;
+	top: 175px;
+	left: 320px;
+	opacity: .5;
+}
+#box h1{
+	text-decoration: none;
+	color: white;
+	font-weight: normal;
+	padding-left: 25px;
+}
+#box h2{
+	font-weight: normal;
+	color: white;
+	position: absolute;
+	top: 82px;
+	left: 100px;
+}
+.phone{
+	background: url(phone.png) no-repeat;
+	background-size: 100%;
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+
+}
+#email{
+ 	padding-left: 10px;
+ 	float: right;
+ 	background-color: #999999;
+ 	opacity: .5;
+ 	position: fixed;
+ 	top: 350px;
+ 	left: 660px;
+ 	width: 300px;
+ 	height: 200px;
+}
+.messages{
+	position: fixed;
+	top: 315px;
+	left: 660px;
+	color: white;
+	font-size: 20px;
+}
+input[type=submit] {
+background-color: grey;
+opacity: .1
+border-radius: 6%;
+font: bold;
+}
+.send{
+	position: fixed;
+	top: 552px;
+	left: 918px;
+	height: 20px;
+}
+
+#subject{
+	position: fixed;
+	left: 660px;
+	top: 280px;
+	background-color: #999999;
+ 	opacity: .5;
+}
+#subject-text{
+	color: white;
+	font-size: 20px;
+	position: fixed;
+	left: 660px;
+	top: 250px;
+}
+.mail-icon{
+	background: url(email.png) no-repeat;
+	width: 60px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 600px;
+}
+ body{
+     background: url(bruh.jpg);
+     background-size: cover;
+ }
